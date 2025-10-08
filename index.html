@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Links-->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
     <title>Districts of Belize</title>
 </head>
@@ -15,14 +16,16 @@
 
 <p>Click on the buttons below to see each district</p>
 
+<div class="button-container">
 <button onclick="document.getElementById('myImage').src='Corozal.png'">Corozal</button>
 <button onclick="document.getElementById('myImage').src='Orange-Walk.png'">Orange Walk</button>
 <button onclick="document.getElementById('myImage').src='Belize.png'">Belize</button>
 <button onclick="document.getElementById('myImage').src='Cayo.png'">Cayo</button>
 <button onclick="document.getElementById('myImage').src='Stann_Creek.png'">Stann Creek</button>
 <button onclick="document.getElementById('myImage').src='Toledo.png'">Toledo</button>
+</div>
 
-<img id="myImage" src="Belize-Map.png" style="width:100px">
+<img id="myImage" src="Belize-Map.png">
 
 
 </body>

@@ -1,0 +1,53 @@
+
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: green;
+    padding: 1.5%;
+    font-family: "Arial", sans-serif;
+    width: fit-content;
+    border-radius: 2vw;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.button-container {
+  width: 585px;
+  height: 96px;
+}
+
+button {
+    font-family: verdana, geneva, tahoma, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 2.5%;
+    margin-left: 0.5%;
+    margin-bottom: 5%;
+    border-radius: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.6s;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border: 0.2px solid black;
+    box-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 0.479);
+    transform: scale(1.05);
+}
+
+#myImage {
+    width: 500px;
+    height: auto;
+    border-radius: 2vw;
+}
