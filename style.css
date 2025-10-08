@@ -5,6 +5,8 @@ body {
 }
 
 h2 {
+    margin: auto;
+    margin-top: 2%;
     color: white;
     background-color: green;
     padding: 1.5%;
@@ -15,13 +17,12 @@ h2 {
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    margin-left: 2vw;
 }
 
 .button-container {
-  width: 585px;
-  height: 96px;
+    margin: auto;
+    width: 585px;
+    height: 96px;
 }
 
 button {
@@ -31,7 +32,6 @@ button {
     background-color: black;
     border: none;
     padding: 2.5%;
-    margin-left: 0.5%;
     margin-bottom: 5%;
     border-radius: 2vw;
     cursor: pointer;
