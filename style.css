@@ -21,6 +21,7 @@ p {
 
 .button-container {
     margin: auto;
+    margin-top: 2%;
     width: 585px;
     height: 96px;
 }
@@ -32,7 +33,6 @@ button {
     background-color: black;
     border: none;
     padding: 2.5%;
-    margin-bottom: 5%;
     border-radius: 2vw;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.6s;
